@@ -1,1 +1,3 @@
 rootProject.name = 'ConsultaClientesApplication '
+include 'docker'
+
