@@ -1,4 +1,4 @@
-package com.br.ConsultaClientesApplication.repository.entity;
+package br.com.leonardo.repository.entity;
 
 import lombok.*;
 
@@ -9,7 +9,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @Table
-public class Cliente implements Serializable {
+public class ClienteEntity implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;

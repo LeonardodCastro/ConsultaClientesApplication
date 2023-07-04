@@ -1,7 +1,7 @@
-package com.br.ConsultaClientesApplication.clienteController;
+package br.com.leonardo.clientecontroller;
 
-import com.br.ConsultaClientesApplication.repository.ClienteRepository;
-import com.br.ConsultaClientesApplication.repository.entity.Cliente;
+import br.com.leonardo.repository.ClienteRepository;
+import br.com.leonardo.repository.entity.ClienteEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +15,7 @@ public class ClienteControllerGET {
 
     @GetMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
-    public Cliente buscaPorId(@PathVariable("id") Long id) {
+    public ClienteEntity buscaPorId(@PathVariable("id") Long id) {
         return clienteRepository.findById(id).
                 orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
     }

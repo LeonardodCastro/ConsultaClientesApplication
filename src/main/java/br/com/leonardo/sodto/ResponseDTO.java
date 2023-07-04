@@ -1,4 +1,4 @@
-package com.br.ConsultaClientesApplication.soDTO;
+package br.com.leonardo.sodto;
 
 import lombok.Data;
 

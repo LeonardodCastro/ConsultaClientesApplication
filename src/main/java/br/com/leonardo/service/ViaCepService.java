@@ -1,8 +1,7 @@
-package com.br.ConsultaClientesApplication.service;
+package br.com.leonardo.service;
 
-import com.br.ConsultaClientesApplication.soDTO.CepDTO;
-import com.br.ConsultaClientesApplication.soDTO.RequestDTO;
-import com.google.gson.Gson;
+import br.com.leonardo.sodto.CepDTO;
+import br.com.leonardo.sodto.RequestDTO;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
