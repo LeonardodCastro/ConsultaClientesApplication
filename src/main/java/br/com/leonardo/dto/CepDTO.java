@@ -1,4 +1,4 @@
-package br.com.leonardo.sodto;
+package br.com.leonardo.dto;
 
 import lombok.Getter;
 import lombok.Setter;

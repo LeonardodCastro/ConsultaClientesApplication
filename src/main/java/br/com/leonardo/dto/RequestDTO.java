@@ -1,19 +1,13 @@
-package br.com.leonardo.sodto;
+package br.com.leonardo.dto;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Column;
-
-@Data
 @Setter
 @Getter
 public class RequestDTO {
     private String nome;
-    @Column
-    private String nome_da_mae;
-    @Column
+    private String nomeDaMae;
     private String cep;
     private String cidade;
 }
