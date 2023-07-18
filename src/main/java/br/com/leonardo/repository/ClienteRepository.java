@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
  * nunca esqueça da anotação REPOSITORY para que o spring cuide da porra toda
  */
 @Repository
-public interface ClienteRepository extends JpaRepository<ClienteEntity,Long> {
+public interface ClienteRepository extends JpaRepository<ClienteEntity, Long> {
 }

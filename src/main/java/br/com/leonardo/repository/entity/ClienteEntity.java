@@ -30,7 +30,7 @@ public class ClienteEntity implements Serializable {
      * USEI UM OPERADOR TERNARIO PARA RETORNAR O GET
      */
     public String getEndereco() {
-        return endereco.length()==0?"SEM ENDEREÇO NO SITE DOS CORREIOS":endereco;
+        return endereco.length() == 0 ? "SEM ENDEREÇO NO SITE DOS CORREIOS" : endereco;
     }
 
     public String getCidade() {

@@ -11,7 +11,7 @@ import br.com.leonardo.repository.entity.ClienteEntity;
  */
 public class CepUtil {
 
-    private CepUtil(){
+    private CepUtil() {
     }
 
     public static final String MSG_AO_FRONTEND = "O CEP NAO CONSTA NA BASE DOS CORREIOS .: ";
